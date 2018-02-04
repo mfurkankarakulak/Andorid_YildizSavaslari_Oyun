@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:scrolling_image_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/boyut">
+    <Button
+        android:id="@+id/baglan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="listenButonPres"
+        android:text="baglan"
+        android:visibility="visible" />
+    <!--suppress AndroidDomInspection -->
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <com.q42.android.scrollingimageview.ScrollingImageView
+            android:id="@+id/scrolling_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:rotation="270"
+            scrolling_image_view:speed="1dp"
+            scrolling_image_view:src="@drawable/kayan" />
+    </FrameLayout>
+
+
+
+        <TextView
+            android:id="@+id/nesne"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/benimgemi"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/nesneDusman"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/dusmangemi"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            ></TextView>
+
+
+    <RelativeLayout
+        android:id="@+id/layout_joystick"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/image_button_bg">
+
+    </RelativeLayout>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/atesTusu"
+        android:layout_alignParentBottom="true"
+        android:text="ATES"/>
+
+    <RelativeLayout
+        android:id="@+id/atesText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <TextView
+            android:id="@+id/ates"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:background="@android:drawable/presence_busy"
+            android:visibility="invisible">
+        </TextView>
+
+
+
+
+
+    </RelativeLayout>
+</RelativeLayout>
+
+
+
+
+
+
+
