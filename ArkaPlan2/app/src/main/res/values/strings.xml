@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Uygulama</string>
+    <string name="kayıt">KAYIT OL</string>
+    <string name="kadı">Kullanını Adını Giriniz</string>
+    <string name="mail">Mailinizi Giriniz</string>
+    <string name="sifre">Şifrenizi Giriniz</string>
+    <string name="isim">İsminizi Giriniz</string>
+    <string name="soyad">Soyadınızı Giriniz</string>
+    <string name="kullanici">Kullanıcı Adını Giriniz</string>
+    <string name="Ksifre">Şifrenizi Giriniz</string>
+    <string name="giris">GİRİŞ</string>
+    <string name="Ogiris">Oyuna Giriş</string>
+    <string name="Cgiris">Çoklu Oyuna Giriş</string>
+
+</resources>

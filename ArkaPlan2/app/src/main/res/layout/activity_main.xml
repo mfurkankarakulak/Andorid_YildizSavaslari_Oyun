@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/arkaplan">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/isim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/isim" />
+        <EditText
+            android:id="@+id/soyad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/soyad" />
+        <EditText
+            android:id="@+id/kullanici"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/kadı" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:hint="@string/mail" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sifre"
+            android:hint="@string/sifre"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kayıt"
+            android:id="@+id/buton"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
